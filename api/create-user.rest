@@ -1,0 +1,16 @@
+#Register
+PORT http://localhost:8080/auth/local/register
+Content-Type: application/json
+Authorization: Bearer d2dbaf3128396c9a9cf9e6d2dade7b2db839c4b57e8494250cff7c5a3aabacfd2ca54f4a3e902d10f8b4c4dd9b532e2c033b6622bebe0a90ae789926cd606e1a5d8d00dd188eefc07a16ef63ef53de9ea044d0acf0797ac0ed8fb65620254365fe0f53ce8af875f5515030ed6a7bc1571137f14c479afdf19af54b7887a295ce
+{
+    "username":"Panus",
+    "email":"panus.chant@gmail.com",
+    "password":"Palm13579",
+}
+
+PORT http://localhost:8080/auth/local
+Content-Type: application/json
+{
+    "identifier":"demo@demo.com",
+    "password":"p@ssw0rd"
+}
